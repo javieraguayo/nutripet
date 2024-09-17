@@ -1,0 +1,44 @@
+# Go binary files
+/bin/
+/build/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Go test binary, build with `go test -c`
+/*.test
+
+# Coverage output
+*.cover
+*.coverage
+*.cov
+
+# Go mod and sum files
+go.sum
+
+# Vendor directory (if using Go modules)
+vendor/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.out
+*.log
+
+# Dependency directories
+node_modules/
+
+# Ignorar la carpeta pkg revisar
+pkg/
